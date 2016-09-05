@@ -3,6 +3,7 @@ Windows Registry Editor Version 5.00
 ; these enable some basic features missing in starter/home editions
 
 [HKEY_LOCAL_MACHINE\SYSTEM\Tokens\Kernel]
+"Kernel-CsChecksDisabled"=dword:00000000
 "appid-EnableV2"=dword:00000001
 "Kernel-CsChecksDisabled"=dword:00000000
 "Microsoft-Windows-HotStart-EnableHotStart"=dword:00000001
