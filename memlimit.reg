@@ -3,7 +3,6 @@ Windows Registry Editor Version 5.00
 ; Raises memory cap
 
 [HKEY_LOCAL_MACHINE\SYSTEM\Tokens\Kernel]
-"Kernel-CsChecksDisabled"=dword:00000000
 "Kernel-RegisteredProcessors"=dword:00000040
 "Kernel-WindowsMaxMemAllowedArm"=dword:00001000
 "Kernel-WindowsMaxMemAllowedx64"=dword:00030000
