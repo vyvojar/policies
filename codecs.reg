@@ -1,4 +1,4 @@
-Windows Registry Editor Version 5.01
+Windows Registry Editor Version 5.00
 
 ; enable codecs
 [HKEYLOCALMACHINE\SYSTEM\Tokens\Kernel]
