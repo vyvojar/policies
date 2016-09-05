@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; allow cortana
+; but permit disabling cortana via registry
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Tokens\Kernel]
+"Cortana-AllowCortana-Enabled"=dword:00000001
+"Cortana-ManageCortana-Enabled"=dword:00000001

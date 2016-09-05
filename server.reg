@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+; storage, clustering & virtualization
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Tokens\Kernel]
+"volmgrx-SupportDynamic"=dword:00000001
+"volmgrx-SupportMirror"=dword:00000001
+"volmgrx-SupportRaid5"=dword:00000001
+"Kernel-VirtualDynamicPartitioningSupported"=dword:00000001
+"ExtensibleStorageEngine-ISAM-ParamConfiguration"=dword:00000001
+"FailoverCluster-ClusWMI-IsClusterEnabled"=dword:00000001
+"FailoverCluster-ClusWMI-IsStorageSpacesDirectEnabled"=dword:00000001
+"microsoft-windows-virtualization-licensing-EnableHyperVReplica"=dword:00000001

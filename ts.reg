@@ -1,0 +1,25 @@
+Windows Registry Editor Version 5.00
+
+; Unlimited terminal server
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Tokens\Kernel]
+"TerminalServices-DeviceRedirection-Licenses-PnpRedirectionAllowed"=dword:00000001
+"TerminalServices-DeviceRedirection-Licenses-TSAudioCaptureAllowed"=dword:00000001
+"TerminalServices-DeviceRedirection-Licenses-TSEasyPrintAllowed"=dword:00000001
+"TerminalServices-DeviceRedirection-Licenses-TSMFPluginAllowed"=dword:00000001
+"TerminalServices-RDP-7-Advanced-Compression-Allowed"=dword:00000001
+"TerminalServices-RemoteApplications-ClientSku-RAILAllowed"=dword:00000001
+"TerminalServices-RemoteConnectionManager-0f0a4bf8-8362-435d-938c-222a518a8b78-Disabled"=dword:00000000
+"TerminalServices-RemoteConnectionManager-45344fe7-00e6-4ac6-9f01-d01fd4ffadfb-LocalOnly"=dword:00000000
+"TerminalServices-RemoteConnectionManager-45344fe7-00e6-4ac6-9f01-d01fd4ffadfb-MaxSessions"=dword:00000002
+"TerminalServices-RemoteConnectionManager-8dc86f1d-9969-4379-91c1-06fe1dc60575-MaxSessions"=dword:00001000
+"TerminalServices-RemoteConnectionManager-AllowAppServerMode"=dword:00000001
+"TerminalServices-RemoteConnectionManager-AllowD3DRemoting"=dword:00000001
+"TerminalServices-RemoteConnectionManager-AllowMultimon"=dword:00000001
+"TerminalServices-RemoteConnectionManager-AllowMultipleSessions"=dword:00000001
+"TerminalServices-RemoteConnectionManager-AllowRemoteConnections"=dword:00000001
+"TerminalServices-RemoteConnectionManager-b7857721-7a62-4a37-aff3-253fe2b8b0e8-MaxSessions"=dword:00000000
+"TerminalServices-RemoteConnectionManager-ce0ad219-4670-4988-98fb-89b14c2f072b-MaxSessions"=dword:00000000
+"TerminalServices-RemoteConnectionManager-MaxUserSessions"=dword:00000000
+"TerminalServices-RemoteConnectionManager-UiEffects-DWMRemotingAllowed"=dword:00000001
+"TSProxy-EdgeAdapter-MaxConnections"=dword:0000ffff

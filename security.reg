@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Tokens\Kernel]
+"CodeIntegrity-AllowConfigurablePolicy"=dword:00000001
+"LSA-Policy-DisableBuiltinAdminByDefault"=dword:00000000
+"LSA-Policy-DisableBuiltinGuestByDefault"=dword:00000000
+"LSA-Policy-EnableTrustedDomains"=dword:00000001
+"LSA-Policy-EnableCredentialIsolationConfiguration"=dword:00000001
+"LSA-Policy-EnableTrustedDomains"=dword:00000001
+"Microsoft-Windows-CertificateServices-CA-CertificateManagerRestrictionSupport"=dword:00000001
+"Microsoft-Windows-CertificateServices-CA-CrossForestEnrollmentSupport"=dword:00000001
+"Microsoft-Windows-CertificateServices-CA-ExitModuleSMTPSupport"=dword:00000001
+"Microsoft-Windows-CertificateServices-CA-RoleSeparationSupport"=dword:00000001
+

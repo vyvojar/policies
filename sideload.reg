@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; Enable metro sideloading
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Tokens\Kernel]
+"WSLicensingService-EnableLOBApps"=dword:00000001
+"WSLicensingService-LOBSideloadingActivated"=dword:00000001
+

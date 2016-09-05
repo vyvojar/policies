@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Tokens\Kernel]
+"GroupPolicy-License-DomainIncapableSystem"=dword:00000000
+"WorkstationService-DomainJoinEnabled"=dword:00000001
+"provsvc-license-HomeGroupCreate"=dword:00000001

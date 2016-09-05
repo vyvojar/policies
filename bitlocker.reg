@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+; Unlimited bitlocker features
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Tokens\Kernel]
+"SecureStartupFeature-Enabled-DeviceEncryption"=dword:00000001
+"SecureStartupFeature-Enabled-DeviceEncryption-BlockRevert"=dword:00000001
+"SecureStartupFeature-Enabled-Driver"=dword:00000001
+"SecureStartupFeature-Enabled-PreInstall"=dword:00000001
+"SecureStartupFeature-Enabled-Premium"=dword:00000001
+"feclient-EfsEnabled"=dword:00000001
+"feclient-EfsEnabledBasic"=dword:deadbeef
+"feclient-EfsUserCacheLimit"=dword:00000064

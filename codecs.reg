@@ -1,0 +1,29 @@
+Windows Registry Editor Version 5.01
+
+; enable codecs
+[HKEYLOCALMACHINE\SYSTEM\Tokens\Kernel]
+"msac3enc-DolbyDigitalEncoderV2AddIn"=dword:00000001
+"msac3enc-DolbyDigitalEncoderV2AddInEnable"=dword:00000001
+"msac3enc-DolbyDigitalEncoderV2InSKU"=dword:00000001
+"msmpeg2adec-AACDecoderV2AddIn"=dword:00000001
+"msmpeg2adec-AACDecoderV2AddInEnable"=dword:00000001
+"msmpeg2adec-AACDecoderV2InSKU"=dword:00000001
+"msmpeg2adec-DolbyDigitalDecoderV2AddIn"=dword:00000001
+"msmpeg2adec-DolbyDigitalDecoderV2AddInEnable"=dword:00000001
+"msmpeg2adec-DolbyDigitalDecoderV2InSKU"=dword:00000001
+"msmpeg2enc-MPEG2VideoEncoderV2AddIn"=dword:00000001
+"msmpeg2enc-MPEG2VideoEncoderV2AddInEnable"=dword:00000001
+"msmpeg2enc-MPEG2VideoEncoderV2InSKU"=dword:00000001
+"msmpeg2vdec-H264VideoDecoderV2AddIn"=dword:00000001
+"msmpeg2vdec-H264VideoDecoderV2AddInEnable"=dword:00000001
+"msmpeg2vdec-H264VideoDecoderV2InSKU"=dword:00000001
+"msmpeg2vdec-MPEG2VideoDecoderV2AddIn"=dword:00000001
+"msmpeg2vdec-MPEG2VideoDecoderV2AddInEnable"=dword:00000001
+"msmpeg2vdec-MPEG2VideoDecoderV2InSKU"=dword:00000001
+"hevcdecoder-HEVCVideoDecoderV1AddIn"=dword:00000001
+"hevcdecoder-HEVCVideoDecoderV1AddInEnable"=dword:00000001
+"hevcdecoder-HEVCVideoDecoderV1InSKU"=dword:00000001
+"MF-SLPolicy-HMFTMeritValidationRequired"=dword:00000000
+"MF-SLPolicy-PMPSessionInProcess"=dword:00000001
+"MF-SLPolicy-SkipOPMVerification"=dword:00000001
+

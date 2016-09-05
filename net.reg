@@ -1,0 +1,42 @@
+Windows Registry Editor Version 5.00
+
+; These policies disable limits of various network services (except TS)
+; You get unlimited:
+;
+; shared folder simultaneous sessions
+; ad-hoc mode
+; Network sharing (NAT, including ipv6 xlat)
+; dialup/VPN server/client connections
+; nfs
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Tokens\Kernel]
+"SMBServer-AllowHashPublication"=dword:00000001
+"SMBServer-AllowRemoteLegacyShadowCopyAccess"=dword:00000001
+"SMBServer-AllowRemoteShadowCopyAccess"=dword:00000001
+"SMBServer-WindowsMaxInSMBConns"=dword:00100000
+"Microsoft-Windows-DOT11PREF-AllowAdhoc"=dword:00000001
+"Microsoft-Windows-InternetConnectionSharingConfig-HomeNetBeacon"=dword:00000001
+"Microsoft-Windows-InternetConnectionSharingConfig-HomeNetICS"=dword:00000001
+"Microsoft-Windows-NetworkBridge-WindowsHomeNwkEnabled"=dword:00000001
+"NetworkProfile-License-CostEnabled"=dword:00000001
+"NetworkProjection-CanRunNetworkProjection"=dword:00000001
+"NetworkProjection-CanStartPresenting"=dword:00000001
+"RasBase-DefaultConnections"=dword:00000010
+"RasBase-DisableDialup"=dword:00000000
+"RasBase-DisableIsdn"=dword:00000000
+"RasBase-DisableMprMsg"=dword:00000000
+"RasBase-DisableRasScript"=dword:00000000
+"RasBase-EnableOnDemandDriverLoad"=dword:00000001
+"RasBase-MaxConnections"=dword:7fffffff
+"RasBase-RasMobileCore"=dword:00000001
+"Telnet-Client-EnableTelnetClient"=dword:00000001
+"DNS-Client-license-DAPolicy"=dword:00000001
+"DFSN-ServerService-StandaloneRootLimit"=dword:7fffffff
+"IIS-W3SVC-MaxConcurrentRequests"=dword:00000000
+"Microsoft-Windows-WinNat-Licensing-EnableDNS64"=dword:00000001
+"Microsoft-Windows-WinNat-Licensing-EnableNAT64"=dword:00000001
+"Microsoft-Windows-WinNat-Licensing-EnableXLAT"=dword:00000001
+"nfs-servercmdtools-enabled"=dword:00000001
+"nfs-servercore-enabled"=dword:00000001
+"nfs-clientcmdtools-enabled"=dword:00000001
+"nfs-clientcore-enabled"=dword:00000001

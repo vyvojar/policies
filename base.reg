@@ -1,0 +1,35 @@
+Windows Registry Editor Version 5.00
+
+; these enable some basic features missing in starter/home editions
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Tokens\Kernel]
+"appid-EnableV2"=dword:00000001
+"Kernel-CsChecksDisabled"=dword:00000000
+"Microsoft-Windows-HotStart-EnableHotStart"=dword:00000001
+"Personalization-Enabled"=dword:00000001
+"transmog-CanTransmogDC"=dword:00000001
+"VirtualPC-licensing-Enabled"=dword:00000001
+"VirtualXP-licensing-Enabled"=dword:00000001
+"WMPPlayer-HMEAllowed"=dword:00000001
+"WMPPlayer-RMEAllowed"=dword:00000001
+"WMPPlayer-RMESecurityGroupAllowed"=dword:00000001
+"TrustedTime"=dword:00000000
+"Security-SPP-GenuineLocalStatus"=dword:00000001
+"Security-SPP-Reserved-EnableNotificationMode"=dword:00000000
+"Security-SPP-Reserved-TBLState"=dword:00000000
+"ChangeDesktopBackground-Enabled"=dword:00000001
+"Kernel-RegisteredProcessors"=dword:00000040
+"Microsoft-Windows-Core-NeedsFullOEMVerification"=dword:00000000
+"Microsoft-Windows-OfflineFiles-Core-BranchCachingEnabled"=dword:00000001
+"Microsoft-Windows-OfflineFiles-Core-FeatureEnabled"=dword:00000001
+"Microsoft-Windows-Core-AllowMultiMon"=dword:00000001
+"Microsoft-Windows-Core-MaxConcurrentIApp"=dword:00000000
+"Microsoft-Windows-Core-MaxHRes"=dword:ffffffff
+"Microsoft-Windows-Core-MaxTopLevelWinPerApp"=dword:00000000
+"Microsoft-Windows-Core-MaxVRes"=dword:ffffffff
+"Microsoft-Windows-DesktopWindowManager-Core-AnimatedTransitionsAllowed"=dword:00000001
+"Microsoft-Windows-DesktopWindowManager-Core-CompositionAllowed"=dword:00000001
+"Microsoft-Windows-DesktopWindowManager-Core-Flip3dAllowed"=dword:00000001
+"Microsoft-Windows-DesktopWindowManager-Core-LivePreviewAllowed"=dword:00000001
+"Microsoft-Windows-DesktopWindowManager-Core-ThumbnailsAllowed"=dword:00000001
+"Microsoft-Windows-DesktopWindowManager-Core-TransparencyAllowed"=dword:00000001
